@@ -1,0 +1,493 @@
+
+#slider {
+  width: 100%;
+  overflow: hidden;
+  }
+  
+  #slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  }
+  
+  .slide img {
+  width: 100%;
+  height: auto;
+  }
+  
+  #dots-container {
+  text-align: center;
+  margin-top: 20px;
+  }
+  
+  .dot {
+  height: 30px;
+  width: 30px;
+  margin: 0 5px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  }
+  
+  .dot:nth-child(1) {
+  background-color: #FFCB05; /* Cor do dot para o Item 01 */
+  }
+  
+  .dot:nth-child(2) {
+  background-color: #ffd /* Cor do dot para o Item 02 */
+  }
+  
+  .dot:nth-child(3) {
+  background-color: #1b1b1b; /* Cor do dot para o Item 03 */
+  }
+  
+  .dot.active {
+  border: 2px solid #FFCB05;;
+  border-radius: 30px; /* Cor do dot ativo */
+  }
+  
+  #slide-text {
+  text-align: center;
+  margin: 0.5rem;
+  color: #fff;
+  font-size: 2rem;
+  }
+
+.video-05{
+  border-radius: 1rem; width: 70rem; margin: 0 auto; display: block
+}
+
+ /********************************/
+ .container-s101 {
+  max-width: 1440px;
+  background-color: #fff;
+  background-repeat: repeat-y;
+  }
+
+  .container-s101 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background: var(--background-blue);
+  }
+
+  .col-sm-12-s101{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  }
+
+  .col-sm-12-s101 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  }
+
+  .row-s101 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  }
+
+  .col-sm-12-s102{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  }
+
+  .col-sm-12-s102 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  }
+
+  video{
+    width: 100%;
+  }
+
+  @font-face {
+    font-family: POCOTech;
+    font-weight: 100;
+    src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Hairline.woff)
+    format("woff");
+    }
+    @font-face {
+    font-family: POCOTech;
+    font-weight: 200;
+    src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-ExtraLight.woff)
+    format("woff");
+    }
+    @font-face {
+    font-family: POCOTech;
+    font-weight: 300;
+    src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Light.woff)
+    format("woff");
+    }
+    @font-face {
+    font-family: POCOTech;
+    font-weight: 400;
+    src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Regular.woff)
+    format("woff");
+    }
+    @font-face {
+    font-family: POCOTech;
+    font-weight: 500;
+    src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Medium.woff)
+    format("woff");
+    }
+    @font-face {
+    font-family: POCOTech;
+    font-weight: 600;
+    src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-SemiBold.woff)
+    format("woff");
+    }
+    @font-face {
+    font-family: POCOTech;
+    font-weight: 700;
+    src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Bold.woff)
+    format("woff");
+    }
+    @font-face {
+    font-family: POCOTech;
+    font-weight: 800;
+    src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Book.woff)
+    format("woff");
+    }
+  :root{
+  --background-silver: #707070;
+  --background-blue: #0C172B;
+  --background-blue-light: #3a5480;
+  --background-yellon: #FFCB05;
+
+  --text-white: #fff;
+  --text-yellon: #FFCB05;
+  }
+
+  .txt-white {color: var(--text-white);}
+  .txt-yellon {color: var(--text-yellon);}
+
+
+
+  .img-fluid {width: 100%; height: auto;}
+  .img-fluid-icons{margin: 0 auto; display: block;}
+
+  .title-xioami{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "POCOTech";
+  position: relative;
+  overflow-wrap: break-word;
+  }
+
+  .subtitle-xioami{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: "POCOTech", sans-serif;
+  position: relative;
+  overflow-wrap: break-word;
+  }
+
+  .subtitle-left {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "POCOTech";
+  position: relative;
+  overflow-wrap: break-word;
+  }
+
+  .subtitle-center {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "POCOTech";
+    position: relative;
+    overflow-wrap: break-word;
+    }
+
+
+
+
+  .p-left {
+  font-size: 1.1rem;
+  text-align: left;
+  font-family: "POCOTech";
+  position: relative;
+  line-height: 1.3;
+  overflow-wrap: break-word;
+  }
+
+  .p-center{
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: "POCOTech";
+    position: relative;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+    }
+
+  .p-notas{
+  text-align: left;
+  font-size: 1rem;
+  padding: 5rem;
+  font-family: "POCOTech";
+  }
+
+
+
+
+  /************************ Grid ***********************/
+
+  .grid-desk-xiaomi {
+  gap: 1.5rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 42rem;
+  }
+
+  .grid-icons-xiaomi {
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .grid-xiaomi {
+  gap: 1.5rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 38rem;
+  }
+
+  .grid-xiaomi-retrato {
+  width: 31%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: row;
+  }
+
+
+  /********************** Slideshow ********************/
+
+  .slick-slider {
+  position: relative;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  }
+
+  .slick-list, .slick-slider button{overflow: hidden}
+  .slick-list.dragging {cursor: ew-resize}
+  .slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  z-index: 10 !important;
+  }
+
+  .slick-slide img{width:100%}
+  .slick-slide.dragging img {pointer-events: none}
+  .slick-initialized .slick-slide {display: block}
+  .slick-slider button{
+  cursor: pointer; 
+  outline: 0;
+  text-indent: 100px;
+  transition: all .4s ease;
+  }
+
+  /*** Navigation ***/
+
+  /*** Pagination ***/
+  .slick-dots {
+  margin: 2rem 0 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 1rem;
+  }
+
+  .slick-dots li{
+  display: inline-block;
+  margin: 0 5px;
+  }
+
+  .slick-dots button {
+  background: #828282;
+  border-radius: 15px;
+  border: 1px solid #828282;
+  height: 20px;
+  width: 20px;
+  }
+
+  .slick-active button{
+  background: #292929; 
+  border-color: #292929;
+  }
+
+  .spacing{padding: 3rem;}
+  .spacing-galery{padding: 12rem;}
+
+  .img-desk{display: block;}
+  .img-mob{display: none;}
+
+  /************************* Mobile ***********************/
+
+  @media only screen and (max-width: 920px) {
+
+    .video-05{border-radius: 1rem; width: 100%; margin: 0 auto; display: block}
+
+  .img-fluid-icons {width: 100%; height: auto;}
+
+  .row-s101 {padding: 0 0px;}
+  .spacing{padding: 1rem;}
+  .spacing-galery{padding: 1rem;}
+  .img-desk{display: none}
+  .img-mob{display: block}
+ 
+
+
+  .col-md-12-s101 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  }
+
+  /********************** Grind Mobile *******************/
+
+
+
+
+
+  /********************************************************/
+
+  .subtitle-xioami{
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 300;
+  font-family: "POCOTech";
+  position: relative;
+  overflow-wrap: break-word;
+  }
+  .subtitle-left {
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "POCOTech";
+  position: relative;
+  overflow-wrap: break-word;
+  }
+
+  .subtitle-center {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: "Camphor Pro", sans-serif;
+    position: relative;
+    overflow-wrap: break-word;
+ }
+
+    .p-left {
+      font-size: 0.8rem;
+      text-align: left;
+      font-family: "Camphor Pro", sans-serif;
+      position: relative;
+      line-height: 1.3rem;
+      overflow-wrap: break-word;
+      }
+
+
+      .p-center{
+        font-size: 0.8rem;
+        text-align: center;
+        font-family: "Camphor Pro", sans-serif;
+        position: relative;
+        line-height: 1.3;
+        overflow-wrap: break-word;
+        }
+    
+
+  .p-notas {
+  text-align: left;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  }
+
+
+
+  #slider {
+    width: 100%;
+    overflow: hidden;
+    }
+    
+    #slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    }
+    
+    .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    }
+    
+    .slide img {
+    width: 100%;
+    height: auto;
+    }
+    
+    #dots-container {
+    text-align: center;
+    margin-top: 20px;
+    }
+    
+    .dot {
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    }
+    
+    .dot:nth-child(1) {
+    background-color: #FFCB05; /* Cor do dot para o Item 01 */
+    }
+    
+    .dot:nth-child(2) {
+    background-color: #ffd /* Cor do dot para o Item 02 */
+    }
+    
+    .dot:nth-child(3) {
+    background-color: #1b1b1b; /* Cor do dot para o Item 03 */
+    }
+    
+    .dot.active {
+    border: 2px solid #FFCB05;;
+    border-radius: 30px; /* Cor do dot ativo */
+    }
+    
+   
+
+
+
+  }
