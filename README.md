@@ -1,1 +1,1 @@
-# poco-x6-pro-5g
+# Landing Page Poco X6 Pro 5g
