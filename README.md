@@ -1,5 +1,6 @@
-# Landing Page Poco X6 Pro 5g
-### Desenvolvido para Xiaomi Brasil - Site MiBrasil
+# Landing Page - Poco X6 Pro 5g - Xiaomi Brasil
+### Desenvolvido para o Site MiBrasil
+<p>Foi feito todo desenvolvimento para atender o site Mibrasil e terceiros, aonde são aplicados no produto. Todo resposivel, para atender os despositivos</p>
  <a href="https://herbertis.github.io/poco-x6-pro-5g/" target="_blank">Veja Aqui</a>
  <a href="https://www.mibrasil.com.br/smartphone-poco-x6-pro-5g-br-tela-6-67-120hz-8-256gb-cinza-prin-p5173" target="_blank">Mi Brasil</a> 
  
