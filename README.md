@@ -1,7 +1,8 @@
 # 🚀 POCO X6 Pro 5G – Landing Page Promocional
 
 Landing page desenvolvida para destacar os recursos e diferenciais do **POCO X6 Pro 5G**, com foco em performance, qualidade de tela, câmeras e usabilidade. O projeto apresenta uma experiência visual rica e imersiva, com ênfase na performance do dispositivo.
-
+ <a href="https://herbertis.github.io/poco-x6-pro-5g-page/" target="_blank">Veja Aqui</a>
+ <a href="https://www.mibrasil.com.br/smartphone-poco-x6-pro-5g-br-tela-6-67-120hz-8-256gb-cinza-prin-p5173" target="_blank">Mi Brasil</a> 
 ---
 
 ## 🎯 Funcionalidades
@@ -34,7 +35,6 @@ Landing page desenvolvida para destacar os recursos e diferenciais do **POCO X6 
 
 ---
 
- <a href="https://herbertis.github.io/poco-x6-pro-5g/" target="_blank">Veja Aqui</a>
- <a href="https://www.mibrasil.com.br/smartphone-poco-x6-pro-5g-br-tela-6-67-120hz-8-256gb-cinza-prin-p5173" target="_blank">Mi Brasil</a> 
+
  
 
